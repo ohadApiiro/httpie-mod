@@ -266,6 +266,7 @@ class Downloader:
             total_size=total_size
         )
 
+
         stream = RawStream(
             msg=HTTPResponse(final_response),
             with_headers=False,
